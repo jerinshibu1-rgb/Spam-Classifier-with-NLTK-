@@ -1,11 +1,11 @@
-# 📧 Spam Classifier using NLTK
+#  Spam Classifier using NLTK
 
 A Machine Learning–based **Spam Detection System** that classifies messages as **Spam** or **Ham (Not Spam)** using **Natural Language Processing (NLP)** techniques and **NLTK**.  
 This project demonstrates the complete NLP pipeline from text preprocessing to model evaluation.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Spam messages pose security and usability risks in email and messaging platforms.  
 This project builds an automated spam classifier that:
@@ -17,7 +17,7 @@ This project builds an automated spam classifier that:
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - **Python**
 - **NLTK** – Text preprocessing
@@ -27,7 +27,7 @@ This project builds an automated spam classifier that:
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 
 The dataset consists of labeled text messages:
 
@@ -43,7 +43,7 @@ The dataset consists of labeled text messages:
 
 ---
 
-## 🔍 NLP Preprocessing Steps
+##  NLP Preprocessing Steps
 
 The following preprocessing steps are applied using **NLTK**:
 
@@ -57,7 +57,7 @@ These steps transform raw text into clean, meaningful tokens for modeling.
 
 ---
 
-## 🧾 Feature Engineering
+##  Feature Engineering
 
 - **Bag of Words (BoW)**
 - **TF-IDF (Term Frequency–Inverse Document Frequency)** ✅ *(final choice)*
@@ -66,11 +66,11 @@ TF-IDF performed better by emphasizing important words commonly found in spam me
 
 ---
 
-## 🤖 Model Building
+##  Model Building
 
 The following algorithms were experimented with:
 
-- Multinomial Naive Bayes ✅ *(final model)*
+- Multinomial Naive Bayes  *(final model)*
 - Logistic Regression
 - Support Vector Machine (optional)
 
@@ -81,7 +81,7 @@ The following algorithms were experimented with:
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 Evaluation metrics used:
 
@@ -91,21 +91,18 @@ Evaluation metrics used:
 - F1-Score
 - Confusion Matrix
 
-### ✅ Final Performance
+###  Final Performance
 - **Accuracy:** ~97–98%
 - **High precision and recall for spam class**
 - Minimal false positives (ham incorrectly marked as spam)
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
-- 🚫 Automatically filters spam messages  
-- ⚡ Enables real-time message screening  
-- 🔐 Improves user safety by blocking phishing and scam messages  
-- 💰 Reduces manual moderation and operational costs  
+-  Automatically filters spam messages  
+-  Enables real-time message screening  
+-  Improves user safety by blocking phishing and scam messages  
+-  Reduces manual moderation and operational costs  
 
 ---
-
-## 📌 Project Structure
-
