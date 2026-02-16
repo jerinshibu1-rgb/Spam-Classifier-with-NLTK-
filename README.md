@@ -60,7 +60,7 @@ These steps transform raw text into clean, meaningful tokens for modeling.
 ##  Feature Engineering
 
 - **Bag of Words (BoW)**
-- **TF-IDF (Term Frequency–Inverse Document Frequency)** ✅ *(final choice)*
+- **TF-IDF (Term Frequency–Inverse Document Frequency)**  *(final choice)*
 
 TF-IDF performed better by emphasizing important words commonly found in spam messages.
 
